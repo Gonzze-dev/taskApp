@@ -1,0 +1,40 @@
+textarea
+{
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+    resize: none;
+    border: none;
+    outline: none;
+    padding-left: 0.438rem;
+    background: var(--Text-input-field);
+    color: var(--Very-light-pink);
+    border-radius: 8px;
+    font-size: 0.875rem;
+}
+
+textarea::placeholder
+{
+    color: var(--Very-light-pink);    
+}
+
+textarea:focus
+{
+    transition: 200ms;
+    border-width: 0.063rem;
+    outline: 1px solid var(--Hospital-green);
+}
+
+textarea::-webkit-scrollbar {
+    width: 7px;
+}
+  
+textarea::-webkit-scrollbar-track {
+    background: #bababa33;
+    border-radius: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #a8a7a7;
+    border-radius: 8px;       
+    border: 2px solid #bababa33;
+}

@@ -1,0 +1,22 @@
+.ButtonGreen
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.125rem;
+    color: var(--Text-input-field);
+    background: var(--Hospital-green);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    text-decoration: none;
+}
+
+.ButtonGreen:hover
+{
+    background-color:var(--Very-light-pink);
+}
+
+.ButtonGreen:active
+{
+    background-color:var(--dark-green);
+}

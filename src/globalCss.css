@@ -1,0 +1,13 @@
+:root
+{
+   /* Colors */
+   --Very-light-pink:  #C7C7C7;
+   --dark-green:  #8aaf8f;
+   --Text-input-field: #F7F7F7;
+   --Hospital-green: #ACD9B2;
+}
+
+* {
+    font-family: 'Arial', sans-serif;
+}
+

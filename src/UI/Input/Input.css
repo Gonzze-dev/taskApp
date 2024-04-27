@@ -1,0 +1,23 @@
+input
+{
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+    border: none;
+    outline: none;
+    padding-left: 0.438rem;
+    background: var(--Text-input-field);
+    color: var(--Very-light-pink);
+    border-radius: 8px;
+    font-size: 0.875rem;
+}
+
+input:focus
+{
+    transition: 200ms;
+    outline: 1px solid var(--Hospital-green);
+}
+
+input::placeholder
+{
+    color: var(--Very-light-pink);
+}
